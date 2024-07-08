@@ -1,0 +1,376 @@
+/* defance wallet to load of pages ruby */
+
+.wallet { 
+    background:fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-image: url('/images/book-perl.jpg') !important;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.5);    
+
+}
+
+/* defance wallet to load of pages ruby */
+.wallet-loading {
+    background:fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-image: url('/images/book-perl.jpg') !important;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+/* defance wallet to load of pages ruby */
+.wallet-error {
+    background:fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-image: url('/images/book-perl.jpg') !important;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+/* defance wallet to load of pages ruby */
+.wallet-success {
+    background:fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-image: url('/images/book-perl.jpg') !important;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+/* defance wallet to load of pages ruby */
+.wallet-info {
+    background:fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-image: url('/images/book-perl.jpg') !important;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+/* defance wallet to load of pages ruby */
+.wallet-warning {
+    background:fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-image: url('/images/book-perl.jpg') !important;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+/* defance wallet to load of pages ruby */
+.wallet-danger {
+    background:fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-image: url('/images/book-perl.jpg') !important;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+/* defance wallet to load of pages ruby */
+.wallet-light {
+    background:fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-image: url('/images/book-perl.jpg') !important;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+/* defance wallet to load of pages ruby */
+.wallet-dark {
+    background:fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-image: url('/images/book-perl.jpg') !important;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+/* defance wallet to load of pages ruby */
+.wallet-white {
+    background:fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-image: url('/images/book-perl.jpg') !important;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+/* defance wallet to load of pages ruby */
+.wallet-black {
+    background:fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-image: url('/images/book-perl.jpg') !important;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+/* defance wallet to load of pages ruby */
+.wallet-primary {
+    background:fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-image: url('/images/book-perl.jpg') !important;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+/* defance wallet to load of pages ruby */
+.wallet-secondary {
+    background:fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-image: url('/images/book-perl.jpg') !important;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+/* defance wallet to load of pages ruby */
+.wallet-success {
+    background:fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-image: url('/images/book-perl.jpg') !important;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+/* defance wallet to load of pages ruby */
+.wallet-info {
+    background:fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-image: url('/images/book-perl.jpg') !important;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+/* defance wallet to load of pages ruby */
+.wallet-warning {
+    background:fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-image: url('/images/book-perl.jpg') !important;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+/* defance wallet to load of pages ruby */
+.wallet-danger {
+    background:fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-image: url('/images/book-perl.jpg') !important;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+

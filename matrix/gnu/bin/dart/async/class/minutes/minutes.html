@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hub File</title>
+</head>
+<body>
+    <h1>Hub File</h1>
+    <ul>
+        <li><a href="https://filehub.pro/" id="#1">
+            <script type="text/javascript" lang="javascript" src="hub.rb">
+                  // Your JavaScript code here
+                  var hub = require('hub');
+                  hub.connect('ws://localhost:8080');
+                  hub.on('message', function(msg) {
+                      console.log('Received message:', msg);
+                  });
+                  hub.on('error', function(err) {
+                      console.error('Hub error:', err);
+                  });
+                  hub.on('close', function() {
+                      console.log('Hub closed');
+                  });
+                  hub.send('Hello, World!');
+                </script>Hub File Invoke The Document</a>
+    </li>
+    </ul>
+    <div class="#1">
+        <!-- Your content goes here -->
+        <p>This is the Invoke of Hub File #1.</p>
+        <p>You can add more <Input:button>inter</Input:button> as needed.</p>
+        <!-- More content goes here -->
+        <area class="topic" id="content" id="content">
+        <script type="text/javascript" lang="javascript">
+            // Your JavaScript code here
+            // Add event listeners, etc.
+            document.getElementById("content").addEventListener('click', function() {
+                hub.send('Content clicked!');
+            });
+            // More event listeners, etc.
+        </script>
+        <!-- More JavaScript code goes here -->
+        </area>
+        <!-- More content goes here -->
+         <command name="hub" type="stream:File" id="Invoke">
+         <details>
+             <summary>Hub File</summary>
+             <p>This is the Invoke of Hub File #1.</p>
+             <p>You can add more <Input:button>inter</Input:button> as needed.</p>
+         </details>
+         <!-- More content goes here -->
+          <area class="topic:tipic" id="content" id="content">
+          <script type="text/javascript" lang="javascript">
+              // Your JavaScript code here
+              // Add event listeners, etc.
+              document.getElementById("content").addEventListener('click', function() {
+                  hub.send('Content clicked!');
+              });
+              // More event listeners, etc.
+          </script>
+          <!-- More JavaScript code goes here -->
+          </area>
+          <!-- More content goes here -->
+        </command name="hub:tipic" type="check:File:Lisp" id="listeners">
+        <param name="check:File:Lisp" type="check:extraction" id="listeners"/>
+        <!-- More content goes here -->
+         <area class="topic:tipic:addEventListener" id="content" id="content">
+          <script type="text/javascript" lang="javascript">
+              // Your JavaScript code here
+              // Add event listeners, etc.
+              document.getElementById("content").addEventListener('click', function() {
+                  hub.send('Content clicked!');
+              });
+              // More event listeners, etc.
+          </script>
+          <!-- More JavaScript code goes here -->
+          </area>
+          <!-- More content goes here -->
+        </command name="hub:tipic:pill-two" type="check:File:Lisp" id="connect">
+        <param name="check:File:Lisp" type="check:extraction" id="connect"/>
+        <bdo type="check:extraction:el">
+            (hub-connect "ws://localhost:8080")
+            (hub-on "message" (lambda (msg) (print msg)))
+            (hub-on "error" (lambda (err) (print err)))
+            (hub-on "close" (lambda () (print "Hub closed")))
+            (hub-send "Hello, World!")
+            (hub-send "Content clicked!")
+        </bdo>    
+         
+
+    </div>
+</body>
+</html>    
+</html>
