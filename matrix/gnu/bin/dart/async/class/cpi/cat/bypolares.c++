@@ -2,11 +2,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #endif
 
-#include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
-#include <cctype>
+#ifdef _MSC_VER
+#pragma warning(push)
 
 bool is_palindrome(const std::string& str) {
     std::string clean_str;
@@ -50,3 +47,4 @@ int main() {
     return 0;
 }
 
+#endif

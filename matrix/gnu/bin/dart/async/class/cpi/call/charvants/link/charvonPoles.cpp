@@ -2,11 +2,22 @@
 #define _CRT_SECURE_NO_WARNINGS
 #endif
 
-#include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
-#include <cctype>
+#include<stdio.h>
+#include<stdlib.h>
+using namespace std;
+
+#ifdef _MSC_VER
+#pragma warning(push)
+
+void reverse_string(char* str, int start, int end) {
+    while (start < end) {
+        char temp = str[start];
+        str[start] = str[end];
+        str[end] = temp;
+        start++;
+        end--;
+    }
+}
 
 bool is_palindrome(const std::string& str) {
     std::string clean_str;
@@ -61,3 +72,4 @@ int main() {
     }
     return 0;
 }
+#endif
